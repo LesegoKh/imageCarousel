@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    overflow-x: hidden;
+}
+
+.slider img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+
+#slider {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform:translateY(80%);
+    transform:translateX(120%);
+    background: whitesmoke;
+    border: none;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#prev {
+    left: -40px;
+}
+
+#next {
+    right: 60px;
+}
